@@ -53,12 +53,19 @@ Country
 
 ### Renamed inconsistent fields
 Original Column	New Column
+
 ProductName	Product
+
 CustomerName	Customer
+
 UnitPrice_NGN	Unit_Price
+
 UnitCost_NGN	Unit_Cost
+
 TotalPrice_NGN	Revenue
+
 TotalCost_NGN	COGs
+
 Profit_NGN	Profit
 
 ### Ensured numeric formatting & date conversions
@@ -91,31 +98,58 @@ Distinct products:
 
 ### Product Revenue & Profit (Top 10 Products)
 
-Product	Revenue	Profit
-Bottled Water 75cl	₦390,000	₦171,000
-Coca-Cola 330ml (Can)	₦378,000	₦162,000
-Sausage Roll	₦357,750	₦99,250
-Bread (500g)	₦330,000	₦140,000
-Milk 1L	₦315,000	₦180,000
-Cereal (500g)	₦312,500	₦137,500
-Biscuit (200g)	₦300,650	₦102,550
-Toilet Roll (Pack of 4)	₦293,000	₦143,000
-Rice 5kg	₦275,000	₦75,000
-Noodles (Pack of 5)	₦270,000	₦90,000
+Product	          Revenue	      Profit
+
+Lays Chips 145g  	₦296,800.00	  ₦93,863.00
+
+Meat Pie	        ₦256,500.00	  ₦122,607.00
+
+Sugar (1 kg)	    ₦225,000.00	  ₦84,000.00
+
+Eggs (6 pcs)	    ₦221,500.00	  ₦108,978.00
+
+Milk (Peak 400g sachet)	₦182,000.00	  ₦81,172.00
+
+Biscuit (200g)	  ₦135,450.00	  ₦46,053.00
+
+Fanta 330ml (Can)	₦131,920.00	  ₦65,184.00
+
+Tomato (1kg)	    ₦131,400.00	  ₦64,824.00
+
+Sausage Roll	    ₦120,600.00	  ₦33,500.00
+
+Coca-Cola 330ml (Can)	₦115,560.00	  ₦49,755.00
+
+Bottled Water 75cl	  ₦102,750.00	    ₦45,895.00
+
+Biscuits (assorted small pack)	₦77,580.00	₦26,291.00
+
+Bread - Small Loaf	₦71,000.00	₦23,572.00
+
+Indomie Noodles (1 pack)	₦29,800.00	₦11,771.00
+
+Yoghurt (125g)	  ₦29,250.00	  ₦13,221.00
 
 Insight: Drinks and basic household essentials dominate revenue.
 Recommendation: Increase stock and promo visibility for the highest-moving SKUs.
 
 ### Orders by Day of the Week
 
-Day	Orders
-Saturday	782
-Sunday	742
-Friday	741
-Thursday	718
-Wednesday	673
-Tuesday	672
-Monday	672
+Day	    Orders
+
+Thursday	782
+
+Monday	764
+
+Friday	710
+
+Tuesday	710
+
+Wednesday	708
+
+Sunday	675
+
+Saturday	651
 
 Insight: Weekend traffic is significantly higher.
 Recommendation: Run weekend promotions & ensure full staffing on Sat/Sun.
@@ -123,9 +157,12 @@ Recommendation: Run weekend promotions & ensure full staffing on Sat/Sun.
 ### Order Distribution by Time of Day
 
 Time Segment	Orders
-Afternoon	2,170
-Morning	1,525
-Night	1,305
+
+Night        	2119
+
+Afternoon    	1620
+
+Morning	      1261
 
 Insight: Afternoons dominate customer activity.
 Recommendation: Schedule digital promotions for early afternoon peaks.
@@ -133,55 +170,109 @@ Recommendation: Schedule digital promotions for early afternoon peaks.
 ### Profit by Category
 
 Category	Profit
-Drinks	₦333,000
-Bakery	₦224,250
-Household	₦186,500
-Food	₦172,500
-Snacks	₦102,550
+Dairy	    ₦203,371.00
+
+Bakery	  ₦179,679.00
+
+Snacks	  ₦166,207.00
+
+Drinks	  ₦160,834.00
+
+Groceries	 ₦95,771.00
+
+Produce	  ₦64,824.00
 
 Insight: Drinks and Bakery items drive the highest margin contribution.
 Recommendation: Position these categories at store hotspots and optimize pricing.
 
 ### Average Price Per Product (Most Expensive at Top)
 
-Product	Avg Unit Price
-Rice 5kg	₦5,500
-Milk 1L	₦1,050
-Cereal (500g)	₦1,250
-Bread (500g)	₦900
-Toilet Roll (Pack of 4)	₦850
+Product	Avg     Unit Price
+
+Tomato (1kg)	    900
+
+Sugar (1 kg)	    900
+
+Lays Chips 145g	  800
+
+Milk (Peak 400g sachet)	500
+
+Meat Pie	        500
+
+Eggs (6 pcs)	    500
+
+Sausage Roll	    450
+
+Coca-Cola 330ml (Can)	360
+
+Biscuit (200g)	  350
+
+Fanta 330ml (Can)	340
+
+Bread - Small Loaf	250
+
+Yoghurt (125g)	  250
+
+Indomie Noodles (1 pack)	200
+
+Biscuits (assorted small pack)	180
+
+Bottled Water 75cl	150
 
 Insight: Rice 5kg contributes heavily to per-transaction value.
 Recommendation: Offer bundles or periodic discounts to increase cart size.
 
 ### Top 10 Customers by Revenue
 
-Customer	Revenue
-Joy Adewale	₦11,750
-John Okoro	₦11,350
-Tunde Akande	₦11,200
-Samuel Ayo	₦10,950
-Chioma Daniels	₦10,750
-Ibrahim Musa	₦10,450
-Fatima Yusuf	₦10,200
-Blessing Oladipo	₦10,050
-Kemi Adeoye	₦10,000
-Adewale Tolu	₦9,950
+Customer	        Revenue
+Ibrahim Okafor	  ₦15,710.00
+
+Chinelo Olawale	  ₦15,580.00
+
+Ngozi Balogun	    ₦15,330.00
+
+Yetunde Bello	    ₦15,260.00
+
+Tunde Sambo	      ₦15,230.00
+
+Mohammed Olatunde	₦14,760.00
+
+Amaka Afolabi	    ₦14,570.00
+
+Opeyemi Idowu	    ₦14,380.00
+
+Sola Afolabi	    ₦14,350.00
+
+Susan Olaoye	    ₦14,320.00
 
 Insight: The top 10 customers contribute a significant revenue portion.
 Recommendation: Introduce a loyalty program to increase retention.
 
 ### Total Profit by Month
 
-Month	Profit
-August	₦210,000
-April	₦208,000
-March	₦207,000
-July	₦205,000
-February	₦203,000
-June	₦200,000
-January	₦197,000
-May	₦190,000
+Month	    Profit
+
+October  	₦92,070.00
+
+July	    ₦89,186.00
+
+August	  ₦88,331.00
+
+March	    ₦87,075.00
+
+September	₦85,973.00
+
+May	      ₦85,884.00
+
+June	    ₦80,448.00
+
+February	₦79,122.00
+
+January	  ₦78,828.00
+
+April	    ₦74,564.00
+
+November	₦29,205.00
 
 Insight: Sales maintain strong performance year-round with slight summer peaks.
 Recommendation: Target promotions around April–August for maximum ROI.
@@ -189,7 +280,11 @@ Recommendation: Target promotions around April–August for maximum ROI.
 ### Business Recommendations
 
 Focus stocking on high-revenue, high-profit products (Water, Coca-Cola, Cereal).
+
 Run weekend promotions as Saturday & Sunday show peak orders.
+
 Intensify afternoon promotions when customer traffic is highest.
+
 Expand loyalty programs targeting top-spending customers.
+
 Increase visibility & pricing optimization for Drinks and Bakery categories.
